@@ -1,12 +1,12 @@
 {
   "name": "react-native-bluetooth-myvision",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "'Bluetooth serial for react native'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/sinistroxtreme/react-native-bluetooth-serial.git",
+  "repository": "git+https://github.com/sinistroxtreme/react-native-bluetooth-mv.git",
   "keywords": [
     "bluetooth",
     "react-native"
@@ -14,9 +14,9 @@
   "author": "Jakub Martyčák <martycakjakub@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sinistroxtreme/react-native-bluetooth-serial/issues"
+    "url": "https://github.com/sinistroxtreme/react-native-bluetooth-mv/issues"
   },
-  "homepage": "https://github.com/sinistroxtreme/react-native-bluetooth-serial#readme",
+  "homepage": "https://github.com/sinistroxtreme/react-native-bluetooth-mv#readme",
   "dependencies": {
     "buffer": "^4.6.0"
   },
