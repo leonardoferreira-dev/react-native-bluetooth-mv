@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js publish
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-bluetooth-mv
 
 PATH: 
   C:\Users\jheme\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\jheme\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\jheme\AppData\Local\Microsoft\WindowsApps;C:\Users\jheme\AppData\Local\Yarn\bin;C:\Users\jheme\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jheme\AppData\Roaming\npm;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Common Files\Autodesk Shared;C:\Users\jheme\AppData\Local\GitHubDesktop\bin;C:\Users\jheme\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\jheme\AppData\Local\Programs\Python\Python38-32;C:\Users\jheme\AppData\Local\Programs\Python\Python38-32\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\jheme\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Ruby31-x64\bin;C:\Users\jheme\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\jheme\AppData\Local\Programs\Python\Python38-32;C:\Users\jheme\AppData\Local\Microsoft\WindowsApps;C:\Users\jheme\AppData\Local\Yarn\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\heroku\bin;C:\Users\jheme\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\jheme\AppData\roaming\Python\Python37\scripts;C:\Users\jheme\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin;C:\tools\Cmder;C:\Users\jheme\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jheme\AppData\Roaming\npm;C:\curl-7.84.0_5-win64-mingw\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/-/user/org.couchdb.user:sinistroxtreme: failed to authenticate: Could not authenticate sinistroxtreme: bad password
+  Error: https://registry.yarnpkg.com/react-native-bluetooth-mv: Not found
       at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66035:18)
       at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140564:22)
       at Request.emit (events.js:210:5)
@@ -29,13 +29,13 @@ Trace:
 npm manifest: 
   {
     "name": "react-native-bluetooth-myvision",
-    "version": "0.0.3",
+    "version": "1.0.2",
     "description": "'Bluetooth serial for react native'",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "git+https://github.com/sinistroxtreme/react-native-bluetooth-serial.git",
+    "repository": "git+https://github.com/sinistroxtreme/react-native-bluetooth-mv.git",
     "keywords": [
       "bluetooth",
       "react-native"
@@ -43,9 +43,9 @@ npm manifest:
     "author": "Jakub Martyčák <martycakjakub@gmail.com>",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/sinistroxtreme/react-native-bluetooth-serial/issues"
+      "url": "https://github.com/sinistroxtreme/react-native-bluetooth-mv/issues"
     },
-    "homepage": "https://github.com/sinistroxtreme/react-native-bluetooth-serial#readme",
+    "homepage": "https://github.com/sinistroxtreme/react-native-bluetooth-mv#readme",
     "dependencies": {
       "buffer": "^4.6.0"
     },
